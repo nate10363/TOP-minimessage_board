@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Message</title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1>Form new message</h1>
+        <h6>powered by a lack of racism</h6>
+        <a class="navigator-a" href="/">go home, racists</a><br><br><hr><br>
+        <form method="POST" action="/new">
+            <div class="new-msg-container">
+                <label class="message-label">Name <br></label><input class="message-input" id="name-input" type="text" name="messageUser" required><br>
+            </div>
+            <div class="new-msg-container">
+                <label class="message-label">Text <br></label><textarea class="message-input" type="text" name="messageText" rows="5" cols="30" required></textarea>
+            </div>
+            <br>
+            <br>
+            <button class="submit-btn" type="submit">Add message</button>
+        </form>
+    </body>
+</html>

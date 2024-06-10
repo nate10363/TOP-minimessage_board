@@ -1,0 +1,78 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #00B7FF;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+a {
+  color: pink;
+}
+
+a:hover {
+  color: white;
+}
+
+.navigator-a {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.message {
+  padding: 10px;
+  background-color: pink;
+  box-sizing: border-box;
+  margin: 20px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.message-sub {
+  margin: 10px 15px;
+}
+
+.message-user, .message-date {
+  margin-left: 35px;
+}
+
+.new-msg-container {
+  margin: 20px 0 0 20px;
+}
+
+.message-label {
+  color: pink;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.message-input {
+  margin: 10px 0 0 30px;
+  border: none;
+}
+
+#name-input {
+  height: 30px;
+}
+
+.submit-btn {
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-left: 250px;
+  width: 200px;
+  height: 50px;
+  background-color: #00B7FF;
+  color: pink;
+  font-size: 1.3em;
+}
+
+.submit-btn:hover {
+  background-color: pink;
+  cursor: pointer;
+  color: white;
+}
